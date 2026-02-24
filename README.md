@@ -1,12 +1,12 @@
-Fullstack Login System
+# Fullstack Login System
 
 A simple fullstack authentication system using Angular, Node.js, Express, TypeScript, MySQL, and JWT.
 
-Features
+## Features
 
-Register and Login
+- Register and Login
 
-JWT Authentication
+- JWT Authentication
 
 Protected Profile API
 

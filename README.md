@@ -8,31 +8,31 @@ A simple fullstack authentication system using Angular, Node.js, Express, TypeSc
 
 - JWT Authentication
 
-Protected Profile API
+- Protected Profile API
 
-Angular frontend + Express backend
+- Angular frontend + Express backend
 
-MySQL database
+- MySQL database
 
-Password hashing with bcrypt
+- Password hashing with bcrypt
 
-Tech Stack
+## Tech Stack
 
-Frontend: Angular, TypeScript
+- Frontend: Angular, TypeScript
 
-Backend: Node.js, Express, TypeScript
+- Backend: Node.js, Express, TypeScript
 
-Database: MySQL
+- Database: MySQL
 
-Auth: JWT, bcrypt
+- Auth: JWT, bcrypt
 
-Setup
-Backend
+## Setup
+### Backend
 cd backend
 npm install
 npm run dev
 
-Create .env:
+### Create .env:
 
 PORT=3001
 DB_HOST=localhost
@@ -40,29 +40,31 @@ DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=login_system
 JWT_SECRET=your_secret
-Frontend
+
+### Frontend
 cd frontend/login-system-frontend
 npm install
 ng serve
 
-Frontend: http://localhost:4200
-Backend: http://localhost:3001
+- Frontend: http://localhost:4200
+- Backend: http://localhost:3001
 
-API
+## API
 
-Register
+## Register
 
 POST /api/auth/register
 
-Login
+## Login
 
 POST /api/auth/login
 
-Profile (Protected)
+## Profile (Protected)
 
 GET /api/auth/profile
 Authorization: Bearer TOKEN
-Author
+
+## Author
 
 Punnathorn Musikphan
 https://github.com/PunTwT

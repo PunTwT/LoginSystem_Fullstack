@@ -23,4 +23,8 @@ export class AuthService {
       headers: { Authorization: `Bearer ${token}` },
     });
   }
+
+  logout(): void {
+    localStorage.removeItem('token');
+  }
 }

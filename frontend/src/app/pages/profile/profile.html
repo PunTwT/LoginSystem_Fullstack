@@ -2,6 +2,8 @@
 <div *ngIf="user; else loading">
   <p>ID: {{ user.id }}</p>
   <p>Email: {{ user.email }}</p>
+
+  <button (click)="logout()">Logout</button>
 </div>
 
 <ng-template #loading>
